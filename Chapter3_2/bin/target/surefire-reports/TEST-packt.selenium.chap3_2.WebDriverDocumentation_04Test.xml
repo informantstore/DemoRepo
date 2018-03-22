@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="packt.selenium.chap3_2.WebDriverDocumentation_04Test" time="1,469.031" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ShivamGupta\Downloads\Final Example Code\Chapter3_2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ShivamGupta\Downloads\Final Example Code\Chapter3_2"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHIVAM~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\HPE\NV\lib\shunra\vcat;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\WinMerge;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\HPE\LoadRunner\strawberry-perl\perl\bin;C:\Program Files\apache-maven-3.5.2\bin;C:\Users\ShivamGupta\AppData\Local\Microsoft\WindowsApps;C:\Users\ShivamGupta\AppData\Roaming\npm;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ShivamGupta"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ShivamGupta"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test clean"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="packt.selenium.chap3_2.WebDriverDocumentation_04Test" name="testVerifyTitle_WebDriverDocumentation" time="734.511">
+    <error message="Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ting provider: PreviousExperimentProvider
+1519723438057	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1519723438058	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1519723439155	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions.json
+1519723439227	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions\fxdriver@googlecode.com
+1519723439228	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions\webdriver-staging
+1519723439228	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1519723439229	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1519723439229	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1519723439229	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1519723439230	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1519723439230	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1519723439231	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1519723439232	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1519723439232	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1519723439233	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1519723439233	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1519723439234	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1519723439235	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1519723439235	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1519723439236	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1519723439237	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1519723439237	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1519723439237	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1519723439405	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1519723439406	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1519723439411	addons.xpi-utils	DEBUG	Successfully read XPI database
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CFNB-0018&apos;, ip: &apos;192.168.178.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+ting provider: PreviousExperimentProvider
+1519723438057	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1519723438058	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1519723439155	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions.json
+1519723439227	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions\fxdriver@googlecode.com
+1519723439228	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions\webdriver-staging
+1519723439228	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1519723439229	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1519723439229	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1519723439229	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1519723439230	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1519723439230	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1519723439231	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1519723439232	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1519723439232	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1519723439233	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1519723439233	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1519723439234	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1519723439235	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1519723439235	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1519723439236	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1519723439237	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1519723439237	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1519723439237	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1519723439405	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1519723439406	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1519723439411	addons.xpi-utils	DEBUG	Successfully read XPI database
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;CFNB-0018&apos;, ip: &apos;192.168.178.92&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at packt.selenium.chap3_2.WebDriverDocumentation_04Test.setUp(WebDriverDocumentation_04Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ting provider: PreviousExperimentProvider
+1519723438057	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1519723438058	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1519723439155	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions.json
+1519723439227	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions\fxdriver@googlecode.com
+1519723439228	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions\webdriver-staging
+1519723439228	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1519723439229	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1519723439229	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1519723439229	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1519723439230	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1519723439230	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1519723439231	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1519723439232	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1519723439232	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1519723439233	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1519723439233	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1519723439234	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1519723439235	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1519723439235	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1519723439236	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1519723439237	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1519723439237	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1519723439237	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1519723439405	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1519723439406	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1519723439411	addons.xpi-utils	DEBUG	Successfully read XPI database
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	... 37 more
+</error>
+    <system-err>org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+ting provider: PreviousExperimentProvider
+1519723438057	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1519723438058	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+1519723439155	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions.json
+1519723439227	addons.xpi	INFO	Mapping fxdriver@googlecode.com to C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions\fxdriver@googlecode.com
+1519723439228	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: C:\Users\ShivamGupta\AppData\Local\Temp\anonymous1575848281141540122webdriver-profile\extensions\webdriver-staging
+1519723439228	addons.xpi	DEBUG	Existing add-on fxdriver@googlecode.com in app-profile
+1519723439229	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1519723439229	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1519723439229	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1519723439230	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1519723439230	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1519723439230	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1519723439231	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1519723439232	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1519723439232	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1519723439233	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1519723439233	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1519723439234	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1519723439235	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1519723439235	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1519723439236	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1519723439237	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1519723439237	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1519723439237	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1519723439405	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1519723439406	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1519723439411	addons.xpi-utils	DEBUG	Successfully read XPI database
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\ShivamGupta\AppData\Local\openvr\openvrpaths.vrpath
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:95)
+	at packt.selenium.chap3_2.WebDriverDocumentation_04Test.setUp(WebDriverDocumentation_04Test.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="packt.selenium.chap3_2.WebDriverDocumentation_04Test" name="testVerifyTitle_WebDriverDocumentation" time="734.52">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at packt.selenium.chap3_2.WebDriverDocumentation_04Test.tearDown(WebDriverDocumentation_04Test.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:33)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+</testsuite>
